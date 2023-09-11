@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Proyecto Final </title>
+    <script src="https://kit.fontawesome.com/090e4f1eab.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;700&family=Oswald:wght@700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/CSS (PF).css">
+
+
+</head>
+
+<body>
+    <header>
+        <div class="encabezado">
+            <div class="contenedor-nav">
+                <div class="contenido-nav contenedor">
+                    <div class="logo">
+                        <h2>La Deliciosa!</h2>
+                    </div>
+                    <nav class="navegacion ocultar">
+                        <a href="#">Inicio</a>
+                        <a href="#">Local</a>
+                        <a href="#menu">Menú</a>
+                        <a href="#">Redes Sociales</a>
+                    </nav>
+                    <div class="menu1">
+                        <span></span><span></span><span></span>
+                    </div>
+                </div>
+            </div>
+            <div class="contenido-header">
+                <div class="contenedor-encabezado">
+                    <div class="texto-encabezado">
+                        <h2>¡Bienvenido!</h2>
+                        <a href="#menu" class="btn bordes">II nuestro menú</a>
+                    </div>
+                    <video autoplay loop muted>
+                        <source src="assets/ham-PF.mp4.mp4">
+                    </video>
+                </div>
+            </div>
+    </header>
+
+    <div class="contenedor-nosotros contenedor">
+        <div class="texto-nosotros">
+            <p class="bienvenido">Bienvenido a</p>
+            <h1>La Deliciosa!</h1>
+            <p>Somos unos amigos que tuvieron un sueño y que hoy pudieron cumplirlo. En esta página podes pedir tus
+                comidas favoritas en cualquier
+                momento del día a la hora que quieras y nosotros te lo llevamos sin costo alguno! Podes consultar
+                nuestro menú presionando el botón
+                al principio de la página o clickeando en el menú de la parte superior derecha de tu pantalla. Cuando
+                hayas elegido lo que quieras
+                pedir podrás contactarnos presionando el siguiente botón. Provecho!
+            </p>
+            <a href="#contacto" class="btn-rojo">Contactar</a>
+        </div>
+        <div class="imagenes-nosotros">
+            <div class="img1">
+                <img data-src="assets/img/img2.jpg" alt="pizza con champiñiones">
+            </div>
+            <div class="img2">
+                <img data-src="assets/img/img1.png" alt="hamburguesa de carne">
+            </div>
+            <div class="img4">
+                <img data-src="assets/img/img4.png" alt="empanadas">
+            </div>
+            <div class="img5">
+                <img data-src="assets/img/img5.png" alt="milanesa a la napolitana con papas">
+            </div>
+        </div>
+    </div>
+
+    <section id="menu" class="menu2 contenedor">
+        <h2 class="texto-platillos">Los platillos del momento</h2>
+        <div class="botones-platillos">
+            <buttom class="todos btn-amarillo">Todos</buttom>
+            <buttom class="hamburguesa btn-amarillo">Hamburguesas</buttom>
+            <buttom class="pasta btn-amarillo">Pastas</buttom>
+            <buttom class="pizza btn-amarillo">Pizzas</buttom>
+            <buttom class="postre btn-amarillo">Postres</buttom>
+        </div>
+        <div class="platillos">
+            <div class="platillo" data-platillo="hamburguesa">
+                <img data-src="assets/img/img6.png" alt="hamburguesa">
+                <h2>Toque Vegetariano</h2>
+                <p>Medallón de carne de 120gr, queso en feta, tomate, cebolla morada, lechuga y acompañado con papas
+                    fritas.</p>
+                <div class="precio">
+                    <p>$1400</p>
+                    <button><i class="fa-solid fa-cart-shopping"></i></button>
+                </div>
+            </div>
+            <div class="platillo" data-platillo="hamburguesa">
+                <img data-src="assets/img/img7.png" alt="hamburguesa">
+                <h2>The King</h2>
+                <p>Triple medallón de carne, cheddar, alioli, cebolla crispy y acompañado con papas fritas.</p>
+                <div class="precio">
+                    <p>$1850</p>
+                    <button><i class="fa-solid fa-cart-shopping"></i></button>
+                </div>
+            </div>
+            <div class="platillo" data-platillo="hamburguesa">
+                <img data-src="assets/img/img8.png" alt="hamburguesa">
+                <h2>Mushroom</h2>
+                <p>Medallón de carne de 120gr, queso en feta, champiñiones, salsa de la casa y acompañado con papas
+                    fritas.</p>
+                <div class="precio">
+                    <p>$1600</p>
+                    <button><i class="fa-solid fa-cart-shopping"></i></button>
+                </div>
+            </div>
+            <div class="platillo" data-platillo="pasta">
+                <img data-src="assets/img/img9.png" alt="pasta">
+                <h2>Spaghetti con albondigas</h2>
+                <p>Porción de spaghettis con albondigas de carne.</p>
+                <div class="precio">
+                    <p>$1500</p>
+                    <button><i class="fa-solid fa-cart-shopping"></i></button>
+                </div>
+            </div>
+            <div class="platillo" data-platillo="pasta">
+                <img data-src="assets/img/img10.png" alt="pasta">
+                <h2>Ravioles</h2>
+                <p>Porción de ravioles de carne y verdura, jamon y ricota o calabaza, salen con salsa roja, blanca o
+                    mixta.</p>
+                <div class="precio">
+                    <p>$1450</p>
+                    <button><i class="fa-solid fa-cart-shopping"></i></button>
+                </div>
+            </div>
+            <div class="platillo" data-platillo="pasta">
+                <img data-src="assets/img/img11.png" alt="pasta">
+                <h2>Canelones</h2>
+                <p>Porción de canelones de verdura y carne o jamon y queso, salen con salsa roja, blanca o mixta.</p>
+                <div class="precio">
+                    <p>$1480</p>
+                    <button><i class="fa-solid fa-cart-shopping"></i></button>
+                </div>
+            </div>
+            <div class="platillo" data-platillo="pizza">
+                <img data-src="assets/img/img12.png" alt="pizza">
+                <h2>Pizza de salchicha</h2>
+                <p>Pizza a la parrilla con salchicha, jamon, cebolla de verdeo, salsa y queso muzzarella.</p>
+                <div class="precio">
+                    <p>$1200</p>
+                    <button><i class="fa-solid fa-cart-shopping"></i></button>
+                </div>
+            </div>
+            <div class="platillo" data-platillo="pizza">
+                <img data-src="assets/img/img13.png" alt="pizza">
+                <h2>Pizza de peperoni</h2>
+                <p>Pizza a la parrilla con salchicha, aceitunas negras, pedacitos de carne, salsa y queso muzzarella.
+                </p>
+                <div class="precio">
+                    <p>$1300</p>
+                    <button><i class="fa-solid fa-cart-shopping"></i></button>
+                </div>
+            </div>
+            <div class="platillo" data-platillo="pizza">
+                <img data-src="assets/img/img14.png" alt="pizza">
+                <h2>Pizza de muzza</h2>
+                <p>Pizza a la parrilla con aceitunas, salsa y queso muzzarella.</p>
+                <div class="precio">
+                    <p>$1100</p>
+                    <button><i class="fa-solid fa-cart-shopping"></i></button>
+                </div>
+            </div>
+            <div class="platillo" data-platillo="postre">
+                <img data-src="assets/img/img15.png" alt="postre">
+                <h2>Cupcake explosivo</h2>
+                <p>Cupcake de chocolate relleno con chocolate derretido.</p>
+                <div class="precio">
+                    <p>$900</p>
+                    <button><i class="fa-solid fa-cart-shopping"></i></button>
+                </div>
+            </div>
+            <div class="platillo" data-platillo="postre">
+                <img data-src="assets/img/img16.png" alt="postre">
+                <h2>Huevo oreo</h2>
+                <p>Huevo de chocolate blanco relleno con una base de galletas oreo, crema y decorado con oreos en la
+                    parte superior.</p>
+                <div class="precio">
+                    <p>$950</p>
+                    <button><i class="fa-solid fa-cart-shopping"></i></button>
+                </div>
+            </div>
+            <div class="platillo" data-platillo="postre">
+                <img data-src="assets/img/img17.png" alt="postre">
+                <h2>Tiramisú</h2>
+                <p>Torta hecha con vainillas, bañado en café con un poco de licor, cubierto en crema y espolvoreado con
+                    chocolate en polvo.</p>
+                <div class="precio">
+                    <p>$800</p>
+                    <button><i class="fa-solid fa-cart-shopping"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="separador">
+        <div class="contenido-separador contenedor">
+            <h2>La mejor comida a todas horas</h2>
+            <p>No importa la hora, nosotros te llevamos la comida sin costo.</p>
+            <a href="#" class="btn-amarillo">Ordenar Ahora</a>
+        </div>
+    </div>
+
+    <section class="personal contenedor">
+        <h2>Nuestro Personal</h2>
+        <div class="contenido-personal">
+            <div class="texto-personal">
+                <h3>Hace unos años tuvimos un sueño y hoy queremos compartirlo con ustedes</h3>
+                <p>Somos tres amigos que, desde que estamos en la secunaria, estamos unidos no solo por nuestra amistad
+                    sino también porque nos encanta satisfacer a las personas con nuestros mejores platillos.
+                    Para conocer más acerca de nuestra historia presiona el siguiente botón.</p>
+                <a href="#" class="btn-amarillo">Nuestra historia</a>
+            </div>
+            <div class="imagen-personal">
+                <img data-src="assets/img/img19.png" alt="foto del personal">
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto">
+        <div class="formulario-contacto contenedor">
+            <div class="informacion-contacto">
+                <h3>Contactanos</h3>
+                <p><i class="fa-solid fa-location-dot"></i>Calle Falsa 123</p>
+                <p><i class="fa-regular fa-envelope"></i>ladeliciosa@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>+54 341 5441966</p>
+                <div class="redes-sociales">
+                    <i class="fa-brands fa-square-facebook"></i>
+                    <i class="fa-brands fa-square-twitter"></i>
+                    <i class="fa-brands fa-square-instagram"></i>
+                </div>
+            </div>
+    
+
+        <form class="formulario">
+            <div class="input-formulario">
+                <label for="nombre">Nombre</label>
+                <input type="text" placeholder="Juan" id="nombre">
+            </div>
+            <div class="input-formulario">
+                <label for="apellidos">Apellido</label>
+                <input type="text" placeholder="Gomez" id="apellidos">
+            </div>
+            <div class="input-formulario">
+                <label for="correo">Correo</label>
+                <input type="email" placeholder="ejemplo@ejemplo.com" id="correo">
+            </div>
+            <div class="input-formulario">
+                <label for="telefono">Telefono</label>
+                <input type="tel" placeholder="+54 341 5441966" id="telefono">
+            </div>
+            <div class="input-formulario">
+                <label for="mensaje">Mensaje</label>
+                <textarea></textarea>
+            </div>
+            <div class="btn-formulario">
+                <input type="submit" class="btn-amarillo" value="Enviar">
+            </div>
+        </form>
+        </div>
+
+    </section>
+
+<div class="pie-pagina">
+    <div class="contenedor-piepagina contenedor">
+        <div class="info">
+            <h3>Dirección</h3>
+            <p>Calle Falsa 123</p>
+        </div>
+        <div class="info">
+            <h3>Días especiales</h3>
+            <p>Sábados y Jueves: 12pm - 00am</p>
+            <p>+54 341 5441966</p>
+        </div>
+        <div class="info">
+            <h3>Horarios</h3>
+            <p>Lunes - Domingo: 24hs</p>
+            <div class="redes-sociales redes-pie">
+                <i class="fa-brands fa-square-facebook"></i>
+                <i class="fa-brands fa-square-twitter"></i>
+                <i class="fa-brands fa-square-instagram"></i>
+            </div>
+        </div>
+        <div class="info">
+            <h3>Noticias</h3>
+            <p>Suscribete para recibir todas las novedades</p>
+            <input type="email" placeholder="Tu correo">
+            <input type="submit" class= "btn-amarillo" value="Suscribirse">
+        </div>
+    </div>
+</div>
+
+<footer class="footer">
+    <p>
+        Todos los derechos reservados &copy; 2023 La Deliciosa!
+    </p>
+</footer>
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>
